@@ -1,8 +1,8 @@
-@extends('layouts.app')
+<x-app-layout :title="'Home | Mamalikidou Anastasia'">
+    <x-slot name="header">
+        <h1>Welcome</h1>
+    </x-slot>
 
-@section('page_title', 'Home | Mamalikidou Anastasia')
-
-@section('content')
     <h2>Welcome to my portfolio</h2>
     <p>This is a placeholder for main content.</p>
-@endsection
+</x-app-layout>
