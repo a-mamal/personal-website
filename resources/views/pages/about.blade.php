@@ -1,9 +1,11 @@
-@extends('layouts.app')
+<x-app-layout :title="'About | Mamalikidou Anastasia'">
+    <x-slot name="header">
+        <h1>About</h1>
+    </x-slot>
 
-@section('content')
     @include('partials.about.bio')
     @include('partials.about.education')
     @include('partials.about.experience')
     @include('partials.about.certifications')
     @include('partials.about.languages')
-@endsection
+</x-app-layout>
