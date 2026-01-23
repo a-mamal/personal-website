@@ -4,10 +4,8 @@
 
     <nav class="site-nav">
         <a href="{{ route('home') }}">Home</a>
-        <a href="{{ route('education') }}">Education</a>
-        <a href="{{ route('languages') }}">Languages</a>
-        <a href="{{ route('certificates') }}">Certificates</a>
         <a href="{{ route('projects') }}">Projects</a>
-        <a href="{{ route('experience') }}">Work Experience</a>
+        <a href="{{ route('about') }}">About</a>
+        <a href="{{ route('contact') }}">Contact</a>
     </nav>
 </header>
