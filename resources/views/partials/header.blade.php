@@ -1,7 +1,7 @@
 <header>
-    <h1>Mamalikidou Anastasia</h1>
-    <p>BEng in Computer Science and Engineering - Software Specialisation</p>
-
+    <div class="logo">
+        <img>
+    </div>
     <nav class="site-nav">
         <a href="{{ route('home') }}">Home</a>
         <a href="{{ route('projects') }}">Projects</a>
