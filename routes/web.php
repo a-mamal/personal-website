@@ -9,9 +9,7 @@ Route::get('/', function() {
     return view('pages.home');
 })->name('home');
 
-Route::get('/projects', function() {
-    return view('pages.projects');
-})->name('projects');
+Route::get('/projects', [ProjectController::class, 'index'])->name('projects');
 
 Route::get('/about', function() {
     return view('pages.about');
