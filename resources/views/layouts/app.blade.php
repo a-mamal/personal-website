@@ -8,7 +8,9 @@
         <title>{{ $title ?? config('app.name', 'Mamalikidou Anastasia') }}</title>
         <meta name="description" content="Portfolio">
         <meta name="theme-color" content="#555">
+        @vite('resources/css/app.css')
         <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+        @vite('resources/js/app.js')
         <script src="{{ asset('js/main.js') }}" defer></script>
     </head>
     <body>
