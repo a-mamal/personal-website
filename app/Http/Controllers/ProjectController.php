@@ -44,4 +44,12 @@ class ProjectController extends Controller
                          ->with('success', 'Project created successfully!');
     }
 
+    public function index(){
+        $projects = Project::where('status', 'published')
+                    ->orderBy('created_at', 'desc')
+                    ->get();
+
+        return view('pages.projects', compact('projects'));
+    }
+
 }
