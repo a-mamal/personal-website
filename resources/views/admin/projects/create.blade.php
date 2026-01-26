@@ -21,6 +21,12 @@
             </div>
 
             <div class="form-group">
+                <label for="type">Type</label>
+                <input type="text" name="type" id="type" value="{{ old('type') }}">
+                @error('type') <p>{{ $message }}</p> @enderror
+            </div>
+
+            <div class="form-group">
                 <label>Description</label>
                 <textarea name="description" rows="4">{{ old('description') }}</textarea>
                 @error('description')
