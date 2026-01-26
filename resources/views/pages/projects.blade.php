@@ -1,44 +1,51 @@
-<x-layout :title="'My Projects'">
+<x-layout :title="'Projects'">
 
-    <h1>My Projects</h1>
+    <header class="projects-header">
+        <h1>Projects</h1>
+        <p>A selection of projects I’ve developed, showcasing skills and focus areas.</p>
+    </header>
 
-    <div class="projects-wrapper">
+    <section class="projects-list">
+
         @forelse($projects as $project)
-            <article class="proj-item">
-                <h3>{{ $project->title }}</h3>
-                <h4>{{ $project->type ?? 'Self-Initiated Project' }}</h4>
-                <p>{{ ucfirst($project->status) }}</p>
+            <article class="project-item">
+                {{-- Title  --}}
+                <h2>{{ $project->title }}</h2>
 
-                <div class="proj-content">
-                    <div class="proj-image">
-                        @if($project->image_path)
-                            <img src="{{ asset($project->image_path) }}" alt="{{ $project->title }} screenshot">
-                        @else
-                            <img src="{{ asset('assets/images/projects/placeholder.png') }}" alt="Project screenshot placeholder">
-                        @endif
-                    </div>
+                {{-- Type --}}
+                @if($project->type)
+                    <h3 class="project-type">{{ $project->type }}</h3>
+                @endif
 
-                    <div class="proj-text">
-                        @if($project->highlights)
-                            <ul>
-                                @foreach($project->highlights as $point)
-                                    <li>{!! $point !!}</li>
-                                @endforeach
-                            </ul>
-                        @endif
+                {{-- Description --}}
+                @if($project->description)
+                    <p class="project-description">{{ $project->description }}</p>
+                @endif
 
-                        @if($project->github_url)
-                            <a href="{{ $project->github_url }}" target="_blank">View on GitHub</a>
-                        @endif
-                        @if($project->project_url)
-                            <a href="{{ $project->project_url }}" target="_blank">Live Demo</a>
-                        @endif
-                    </div>
+                {{-- Highlights --}}
+                @if($project->highlights)
+                    <ul class="project-highlights">
+                        @foreach($project->highlights as $highlight)
+                            <li>{!! $highlight !!}</li>
+                        @endforeach
+                    </ul>
+                @endif
+
+                {{-- Links --}}
+                <div class="project-links">
+                    @if($project->github_url)
+                        <a href="{{ $project->github_url }}" target="_blank">GitHub</a>
+                    @endif
+                    @if($project->project_url)
+                        <a href="{{ $project->project_url }}" target="_blank">Live Demo</a>
+                    @endif
                 </div>
             </article>
-        @empty
-            <p>No projects yet.</p>
-        @endforelse
-    </div>
+
+            @empty
+                <p>No projects available at the moment. Check back soon!</p>
+            @endforelse
+
+    </section>
 
 </x-layout>
