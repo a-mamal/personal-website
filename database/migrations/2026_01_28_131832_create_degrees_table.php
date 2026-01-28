@@ -13,6 +13,25 @@ return new class extends Migration
     {
         Schema::create('degrees', function (Blueprint $table) {
             $table->id();
+
+            $table->foreignId('profile_id')
+                ->constrained()
+                ->onDelete('cascade');
+
+            $table->foreignId('issuer_id')
+                ->constrained()
+                ->onDelete('cascade');
+
+            $table->string('title');
+            $table->string('level');              // e.g.  Bachelor, Master
+            $table->string('field')->nullable();  // specialisation
+
+            $table->date('start_date')->nullable();
+            $table->date('end_date')->nullable();
+
+            $table->string('grade')->nullable();
+            $table->string('image')->nullable();
+
             $table->timestamps();
         });
     }
