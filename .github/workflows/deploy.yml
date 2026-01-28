@@ -42,5 +42,7 @@ jobs:
           server: ${{ secrets.HOSTINGER_HOST }}
           username: ${{ secrets.HOSTINGER_USER }}
           password: ${{ secrets.HOSTINGER_PASS }}
+          protocol: ftps
+          port: 21
           local-dir: ./          # deploy the whole repo
           server-dir: /public_html/  # folder on Hostinger
