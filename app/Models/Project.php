@@ -23,4 +23,9 @@ class Project extends Model
     protected $casts = [
         'highlights' => 'array',
     ];
+
+    public function profile()
+    {
+        return $this->belongsTo(Profile::class);
+    }
 }
