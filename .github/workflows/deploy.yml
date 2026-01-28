@@ -1,6 +1,5 @@
 name: Deploy Laravel Portfolio
 
-
 # Run this workflow whenever you push to main
 on:
   push:
