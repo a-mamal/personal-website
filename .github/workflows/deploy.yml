@@ -64,5 +64,5 @@ jobs:
           password: ${{ secrets.HOSTINGER_PASS }}
           protocol: ftp
           port: 21
-          local-dir: ./public
+          local-dir: ./public/
           server-dir: /public_html/ 
