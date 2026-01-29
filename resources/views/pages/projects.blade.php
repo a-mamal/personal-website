@@ -1,4 +1,4 @@
-<x-layout :title="'Projects'">
+<x-site-layout :title="'Projects'">
 
     <header class="projects-header">
         <h1>Projects</h1>
@@ -48,4 +48,4 @@
 
     </section>
 
-</x-layout>
+</x-site-layout>

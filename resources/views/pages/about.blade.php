@@ -1,4 +1,4 @@
-<x-app-layout :title="'About | Mamalikidou Anastasia'">
+<x-site-layout :title="'About | Mamalikidou Anastasia'">
     <x-slot name="header">
         <h1>About</h1>
     </x-slot>
@@ -8,4 +8,4 @@
     @include('partials.about.experience')
     @include('partials.about.certifications')
     @include('partials.about.languages')
-</x-app-layout>
+</x-site-layout>
