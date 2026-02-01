@@ -4,17 +4,17 @@
 
 ## Table of Contents
 
-- [💬 Learning in Public](#learning-in-public)
-  - [🤝 For Fellow Learners](#🤝-for-fellow-learners)
-- [📌 Current Status](#📌-current-status)
-- [🛠️ Tech Stack](#🛠️-tech-stack)
-- [🚀 Roadmap / Features To Come](#🚀-roadmap--features-to-come)
-- [🎯 Goals](#🎯-goals)
-- [📖 Documentation](#📖-documentation)
-- [🚀 Deployment](#🚀-deployment)
-- [⚙️ Tooling & Acknowledgments](#⚙️-tooling--acknowledgments)
-- [📜 License](#📜-license)
-- [📝 Notes](#📝-notes)
+- [Learning in Public](#learning-in-public)
+  - [For Fellow Learners](#for-fellow-learners)
+- [Current Status](#current-status)
+- [Tech Stack](#tech-stack)
+- [Roadmap / Features To Come](#roadmap--features-to-come)
+- [Goals](#goals)
+- [Documentation](#documentation)
+- [Deployment](#deployment)
+- [Tooling & Acknowledgments](#tooling--acknowledgments)
+- [License](#license)
+- [Notes](#notes)
 
 
 ## Overview
