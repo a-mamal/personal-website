@@ -22,12 +22,12 @@
 A work-in-progress personal website designed to showcase my projects, skills, and ideas. Right now, it’s mostly a skeleton, but exciting features are on the way!
 
 
-## 💬 Learning in Public 
+## Learning in Public 💬 
 
 I'm building this site as I learn, and your feedback is gold! If you have suggestions, ideas, or improvements — whether about code, design, accessibility or usability — don’t hesitate to share them. Every bit of feedback helps me improve and grow. 
 You can also leave feedback directly via [GitHub Issues](https://github.com/a-mamal/personal-website/issues).
 
-### 🤝 For Fellow Learners
+### For Fellow Learners 🤝 
 I'll make sure to be adding **good first issues** for others beginning their journey.
 We all need a safe place to start with something, and I would love for this personal project to make room for that.
 Exploration, suggestions, and discussion are always welcome.
