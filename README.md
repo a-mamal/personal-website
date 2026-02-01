@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-- [💬 Learning in Public](#💬-learning-in-public)
+- [💬 Learning in Public](#learning-in-public)
   - [🤝 For Fellow Learners](#🤝-for-fellow-learners)
 - [📌 Current Status](#📌-current-status)
 - [🛠️ Tech Stack](#🛠️-tech-stack)
