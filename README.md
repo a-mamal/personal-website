@@ -92,8 +92,19 @@ It is still in-progress and will be updated.
 > The application is not in that state. Remember...i'ts a skeleton!  
 > Support for multiple profiles will be added in the future.
 
+## Future Improvements
 
-
+| Area                   | Planned Enhancements                                                                 |
+|------------------------|------------------------------------------------------------------------------------|
+| User Profiles           | Support multiple profiles per user; currently only one profile per user            |
+| Projects & Portfolio    | Dynamic project listings, filtering, and categorization                             |
+| Certificates            | Enhanced management, filtering by issuer, and linking to profiles                   |
+| Blog Section            | Optional blog for tutorials, learning notes, and reflections (under consideration) |
+| Accessibility           | Improvements for keyboard navigation, screen readers, and ARIA attributes          |
+| Responsive Design       | Refined layouts for mobile, tablet, and desktop screens                             |
+| Dark/Light Mode         | Smooth toggle between themes with persistence                                       |
+| Interactive Elements    | Animations and UI enhancements to make the site engaging                             |
+                          
 
 ## Deployment
 
