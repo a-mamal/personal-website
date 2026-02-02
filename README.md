@@ -231,9 +231,12 @@ When your feature or fix is ready:
 
 ## License
 📜 Feel free to look around and get inspired. 
-All code is my own work unless otherwise stated.
+Tweak it, play with it, and make it your own!  
+All code is my own work unless otherwise stated.  
 This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+> Note: Since this is a personal project, some information is… well, personal 😄.  
+> Nothing to hide, but you might not want it for your own website as-is.
 
 ## Notes
 
