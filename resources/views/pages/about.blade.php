@@ -7,5 +7,5 @@
     @include('partials.about.education')
     @include('partials.about.experience')
     @include('partials.about.certifications')
-    @include('partials.about.languages')
+    @include('partials.about.sp-languages')
 </x-site-layout>
