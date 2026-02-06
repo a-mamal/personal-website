@@ -14,7 +14,7 @@ class AboutController extends Controller
 
         return view('pages.about', [
             'user' => $user,
-            'profile' => $user?->$profile,
+            'profile' => $profile,
         ]);
     }
 }
