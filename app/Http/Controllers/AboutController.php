@@ -9,11 +9,12 @@ class AboutController extends Controller
 {
     public function index()
     {
-        $user = User::with('profile')->first();
+        $user = User::with('profiles')->first();
+        $profile = $user?->profiles->first();
 
-        return view('about', [
+        return view('pages.about', [
             'user' => $user,
-            'profile' => $user?->profile,
+            'profile' => $user?->$profile,
         ]);
     }
 }
