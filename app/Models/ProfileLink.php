@@ -15,11 +15,6 @@ class ProfileLink extends Model
         'url',
         'platform',
     ];
-
-    protected $casts = [
-        'platform' => PlatformType::class,
-    ];
-
     public function profile()
     {
         return $this->belongsTo(Profile::class);
