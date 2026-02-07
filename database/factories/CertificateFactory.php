@@ -26,10 +26,10 @@ class CertificateFactory extends Factory
             'description' => $this->faker->optional()->paragraph(),
 
             'date_awarded' => $this->faker->
-                date('-5 years', 'now'),
+                date('Y-m-d', 'now'),
 
             'expiration_date' => $this->faker->optional()->
-                date('now', '+10 years'),
+                date('Y-m-d', '+10 years'),
            
 
             'credential_link' => $this->faker->optional()->url(),
