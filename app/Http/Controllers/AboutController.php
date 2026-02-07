@@ -12,6 +12,8 @@ class AboutController extends Controller
     {
         $user = User::with('profiles.links' , 'profiles.degrees.issuer')->first();
         $profile = $user?->profiles->first();
+
+        // Format degrees
         $degrees = ($profile?->degrees ?? collect())->map(function($degree) {
             $degree->formatted_start = $degree->start_date 
                 ? Carbon::parse($degree->start_date)->format('M Y') 
@@ -22,10 +24,19 @@ class AboutController extends Controller
             return $degree;
         });
 
+        // Format certificates
+        $certificates = ($profile?->certificates ?? collect())->map(function($cert) {
+            $cert->formatted_date = $cert->date_awarded 
+                ? Carbon::parse($cert->date_awarded)->format('M Y') 
+                : '?';
+            return $cert;
+        });
+
         return view('pages.about', [
             'user' => $user,
             'profile' => $profile,
-            'degrees' => $degrees
+            'degrees' => $degrees,
+            'certificates' => $certificates
         ]);
     }
 }
