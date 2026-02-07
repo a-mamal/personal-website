@@ -5,7 +5,7 @@
         @foreach($profile->links as $link)
             <li>
                 <a href="{{ $link->url }}" target="_blank" rel="noopener noreferrer">
-                    {{ ucfirst($link->platform) }}
+                    {{ ucfirst($link->platform) }} ({{ $link->url }})
                 </a>
             </li>
         @endforeach
