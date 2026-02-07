@@ -9,7 +9,7 @@ class AboutController extends Controller
 {
     public function index()
     {
-        $user = User::with('profiles')->first();
+        $user = User::with('profiles.links')->first();
         $profile = $user?->profiles->first();
 
         return view('pages.about', [
