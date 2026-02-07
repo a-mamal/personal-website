@@ -118,5 +118,11 @@
     "type": "University",
     "website": "https://www.uth.gr/",
     "contact_email": "info@uth.gr"
+  },
+  {
+    "name": "2nd Vocational School of Drama",
+    "type": "Vocational School",
+    "website": "https://2epal-dramas-new.dra.sch.gr/",
+    "contact_email": "mail@2epal-dramas.dra.sch.gr"
   }
 ]
