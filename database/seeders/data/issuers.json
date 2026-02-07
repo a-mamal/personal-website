@@ -17,6 +17,18 @@
     "website": "https://www.atlassian.com/",
     "contact_email": null
   },
+  { 
+    "name": "Caltech", 
+    "type": "University", 
+    "website": "https://www.caltech.edu/", 
+    "contact_email": null 
+  },
+  { 
+    "name": "Cisco", 
+    "type": "Company", 
+    "website": "https://www.cisco.com/", 
+    "contact_email": null 
+  },
   {
     "name": "Coursera",
     "type": "Platform",
@@ -41,6 +53,12 @@
     "website": "https://www.google.com/",
     "contact_email": null
   },
+  { 
+    "name": "Google Analytics Academy", 
+    "type": "Professional Organization", 
+    "website": "https://analytics.google.com/analytics/academy/", 
+    "contact_email": null 
+  },
   {
     "name": "Harvard University",
     "type": "University",
@@ -60,6 +78,12 @@
     "contact_email": null
   },
   {
+    "name": "LinkedIn Learning", 
+    "type": "Platform", 
+    "website": "https://www.linkedin.com/learning/", 
+    "contact_email": null
+  },
+  {
     "name": "Microsoft",
     "type": "Company",
     "website": "https://www.microsoft.com/",
@@ -75,6 +99,12 @@
     "name": "Moz",
     "type": "Company",
     "website": "https://moz.com/",
+    "contact_email": null
+  },
+  {
+    "name": "Mozilla",
+    "type": "Company",
+    "website": "https://www.mozilla.org/",
     "contact_email": null
   },
   {
@@ -118,6 +148,12 @@
     "type": "University",
     "website": "https://www.uth.gr/",
     "contact_email": "info@uth.gr"
+  },
+  { 
+    "name": "University of Toronto", 
+    "type": "University", 
+    "website": "https://www.utoronto.ca/", 
+    "contact_email": null 
   },
   {
     "name": "2nd Vocational School of Drama",
